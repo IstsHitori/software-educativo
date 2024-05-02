@@ -4,7 +4,8 @@ const usuarioSchema = mongoose.Schema({
     usuario: {
         type:String,
         required:true,
-        trim:true
+        trim:true,
+        unique:true
     },
 });
 
